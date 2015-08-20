@@ -29,7 +29,7 @@ class SwiftBadge: UILabel {
   }
   
   private func setup() {
-    translatesAutoresizingMaskIntoConstraints = false
+    setTranslatesAutoresizingMaskIntoConstraints(false)
     
     layer.backgroundColor = UIColor.redColor().CGColor
     textColor = UIColor.whiteColor()
